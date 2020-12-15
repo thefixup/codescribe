@@ -2359,7 +2359,7 @@ textarea.form-control {
 
 .form-inline {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   align-items: center;
 }
 .form-inline .form-check {
@@ -2380,6 +2380,7 @@ textarea.form-control {
     margin-bottom: 0;
   }
   .form-inline .form-control {
+    margin-bottom: 1%;
     display: inline-block;
     width: auto;
     vertical-align: middle;
@@ -10286,7 +10287,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/boats.jpg");
+  background: linear-gradient(to top, rgba(0, 0, 0, .1) 10%,  rgba(255,255,255,.25), #f8f9fa 100%), url("../assets/img/boats.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
